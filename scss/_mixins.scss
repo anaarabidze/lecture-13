@@ -1,0 +1,86 @@
+@mixin container {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@mixin li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+
+@mixin h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 32px;
+  margin-left: 41px;
+}
+
+@mixin div2 {
+  background-color: #fff;
+  width: 362px;
+  height: 171px;
+  position: relative;
+  padding-top: 68px;
+  padding-left: 37px;
+}
+
+@mixin h3 {
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin h4 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@mixin h5 {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@mixin h6 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

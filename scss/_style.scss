@@ -1,0 +1,128 @@
+body {
+  background: #f1f1f1;
+}
+
+header {
+  @include container;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 362px;
+    height: 44px;
+    margin-bottom: 23px;
+  }
+  ul {
+    @include li;
+    width: 301px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.s-1 {
+  .divs1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  @include container;
+  h1 {
+    @include h1;
+  }
+  div {
+    .div1 {
+      position: relative;
+      display: flex;
+      h2 {
+        @include h2;
+        position: absolute;
+      }
+    }
+    .div2 {
+      @include div2;
+      div {
+        width: 238px;
+        height: 36px;
+        h3 {
+          @include h3;
+        }
+        div {
+          width: 52px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+
+.s-2 {
+  @include container;
+
+  h1 {
+    @include h1;
+    margin-top: 57px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    .wrapper1 {
+      height: 902px;
+      @include wrapper;
+      div {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h4 {
+          @include h4;
+          position: absolute;
+        }
+      }
+    }
+    .wrapper2 {
+      @include wrapper;
+    }
+  }
+}
+
+footer {
+  height: 201px;
+  background-color: #243043;
+  margin-top: 36px;
+  padding-top: 57px;
+  div {
+    @include container;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 1165px;
+
+    div {
+      width: 711px;
+      height: 57px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .one {
+      height: 98px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h5 {
+        @include h5;
+      }
+    }
+    .second {
+      h6 {
+        width: 249px;
+        @include h6;
+      }
+    }
+  }
+  .img {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

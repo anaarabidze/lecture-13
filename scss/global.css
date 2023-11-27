@@ -1,0 +1,326 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+header {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 362px;
+  height: 44px;
+  margin-bottom: 23px;
+}
+header ul {
+  color: #000;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 301px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-1 {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-1 .divs1 {
+  display: flex;
+  justify-content: space-between;
+}
+.s-1 h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+}
+.s-1 div .div1 {
+  position: relative;
+  display: flex;
+}
+.s-1 div .div1 h2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 32px;
+  margin-left: 41px;
+  position: absolute;
+}
+.s-1 div .div2 {
+  background-color: #fff;
+  width: 362px;
+  height: 171px;
+  position: relative;
+  padding-top: 68px;
+  padding-left: 37px;
+}
+.s-1 div .div2 div {
+  width: 238px;
+  height: 36px;
+}
+.s-1 div .div2 div h3 {
+  color: #8a8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.s-1 div .div2 div div {
+  width: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-2 {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-2 h1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 27px;
+  margin-top: 57px;
+}
+.s-2 .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.s-2 .wrapper .wrapper1 {
+  height: 902px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s-2 .wrapper .wrapper1 div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s-2 .wrapper .wrapper1 div h4 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: absolute;
+}
+.s-2 .wrapper .wrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  height: 201px;
+  background-color: #243043;
+  margin-top: 36px;
+  padding-top: 57px;
+}
+footer div {
+  max-width: 1165px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 1165px;
+}
+footer div div {
+  width: 711px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+footer div .one {
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer div .one h5 {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer div .second h6 {
+  width: 249px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .img {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=global.css.map */
